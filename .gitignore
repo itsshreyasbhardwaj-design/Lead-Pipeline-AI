@@ -1,0 +1,24 @@
+# Personal / business context — never commit your real data
+company-context.md
+/private/
+*.local.md
+
+# Lead data and exports
+*.csv
+!examples/**/*.csv
+leads/
+exports/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+*.swp
+
+# Env / secrets
+.env
+.env.*
+*.key
